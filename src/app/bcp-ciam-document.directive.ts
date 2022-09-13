@@ -10,9 +10,7 @@ export class BcpCiamDocumentDirective {
   private regexAlphaNumeric = new RegExp(/^[0-9a-zA-Z\ñ\Ñ\s]*$/);
   private tagElement = '';
   private isPastedText!: boolean;
-  // constructor() {
-  //   this.setRegexType('1');
-  // }
+
 
   constructor(private el: ElementRef) {
     this.setRegexType('1');
