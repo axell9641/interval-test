@@ -1,6 +1,4 @@
-import { Directive, ElementRef, HostListener } from '@angular/core';
-// import { documentValue } from './document.interface';
-// import { letsDecrypt } from '@appCiam/shared/utils/bcp-ciam-utils';
+import { Directive, ElementRef } from '@angular/core';
 @Directive({
   selector: '[mydirective]',
 })
@@ -8,11 +6,8 @@ export class BcpCiamDocumentDirective {
   private regex!: RegExp;
   private regexNumber = new RegExp(/^[0-9]+$/);
   private regexAlphaNumeric = new RegExp(/^[0-9a-zA-Z\ñ\Ñ\s]*$/);
-  private tagElement = '';
-  private isPastedText!: boolean;
-  // constructor() {
-  //   this.setRegexType('1');
-  // }
+
+
 
   constructor(private el: ElementRef) {
     this.setRegexType('1');
