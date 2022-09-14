@@ -4,7 +4,7 @@ import { FormController } from './form-controller.service';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-fdescribe('FormControllerService', () => {
+describe('FormControllerService', () => {
   let service: FormController;
 
   beforeEach(() => {

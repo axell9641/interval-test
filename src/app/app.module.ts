@@ -8,6 +8,7 @@ import { HomeHeaderComponent } from './home-header/home-header.component';
 import { HighlightDirective } from './highlight.directive';
 import { BcpCiamDocumentDirective } from './bcp-ciam-document.directive';
 import { SelectDocumentDirective } from './select-document.directive';
+import { PasteDirective } from './paste.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SelectDocumentDirective } from './select-document.directive';
     HomeHeaderComponent,
     HighlightDirective,
     BcpCiamDocumentDirective,
-    SelectDocumentDirective
+    SelectDocumentDirective,
+    PasteDirective
   ],
   imports: [
     BrowserModule,

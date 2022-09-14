@@ -8,7 +8,6 @@ export class BcpCiamDocumentDirective {
   private regexAlphaNumeric = new RegExp(/^[0-9a-zA-Z\ñ\Ñ\s]*$/);
 
 
-
   constructor(private el: ElementRef) {
     this.setRegexType('1');
   }
