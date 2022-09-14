@@ -39,7 +39,7 @@ const mockElementRef: any = {
 
 
 
-fdescribe('@BcpCiamDocumentDirective', () => {
+describe('@BcpCiamDocumentDirective', () => {
   let fixture: ComponentFixture<DirectiveHostComponent>;
 
   beforeEach(waitForAsync(() => {
